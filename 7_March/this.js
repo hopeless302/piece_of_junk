@@ -6,7 +6,7 @@ const arrayone = [{
 },
 
 {
-    id: Mern2,
+    id: "Mern2",
     name:"indexTwo",
     rule: "user",
     isactive: ture
