@@ -7,7 +7,11 @@ mixArray.sort((a, b) => a-b)
 const num = mixStringNumber.filter(item => typeof item === "number")
 const string = mixStringNumber.filter(item => typeof item === "string")
 const boolean = mixStringNumber.filter(item => typeof item === "boolean")
+const notboolean = mixStringNumber.filter(item => typeof item !== "boolean")
+
+
 
 console.log(num);
 console.log(string);
 console.log(boolean);
+console.log(notboolean)
